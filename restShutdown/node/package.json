@@ -1,0 +1,32 @@
+{
+  "name": "restshutdown",
+  "version": "1.0.0",
+  "description": "rest server to remotely shutdown windows computer",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-notifier": "^4.4.0",
+    "windows-shortcuts": "^0.1.1",
+    "tray-windows": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maditnerd/restShutdown/restShutdown.git"
+  },
+  "keywords": [
+    "windows",
+    "shutdown",
+    "rest",
+    "remote"
+  ],
+  "author": "Rémi Sarrailh",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/maditnerd/restShutdown/issues"
+  },
+  "homepage": "https://github.com/maditnerd/restShutdown/"
+}
